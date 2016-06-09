@@ -1,0 +1,12 @@
+Install Instructions
+
+yaourt -S conky-lua
+mkdir -p ~/.config/conky
+conky -C > ~/.config/conky/conky.conf
+
+Add: double_buffer = true, 
+     own_window_transparent = true,
+     own_window_argb_visual = true, 
+     own_window_argb_value = 255
+     in ~/.config/conky/conky.conf
+
